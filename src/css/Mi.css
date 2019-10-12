@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* 头部 */
+.top-wrap{
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+}
+.top {
+    width: 100%;
+    height: 40px;
+    background: #333;
+}
+.top-list{
+    width: 1226px;
+    margin: 0 auto;
+}
+.top-nav{
+    /* width: 705px; */
+    /* text-align: center; */
+    float: left;
+    line-height: 40px;
+}
+.top-nav a{
+    display: inline-block;
+    height: 40px;
+    font-size: 12px;
+    color: #B0B0B0;
+}
+.top-nav span{
+    font-size: 12px;
+    color: #424242;
+    margin: 0 3.6px;
+}
+.top-register{
+    width: 143px;
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+.top-car{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    float: right;
+    text-align: center;
+    background:#424242 ;
+}
+.top-car span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    color: #B0B0B0;
+    line-height: 40px;
+}
+.top-nav a:hover{
+    color:#fff;
+}
+.downloadApp {
+    display: inline-block;
+    width: 124px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 50%;
+    font-size: 14px;
+    color: #333;
+    transform: translateX(-70px);
+    box-shadow: 0 1px 5px #aaa;
+    display: none;
+    background: #fff;
+}
+
+.top-car .Car {
+    display: inline-block;
+    width: 316px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, .15); */
+    display: none;
+    line-height: 100px;
+    font-size: 12px;
+    color: #333;
+    background: #fff;
+}
+
+.top-header-wrap{
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+.top-header{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    background: aqua;
+}

@@ -1,0 +1,369 @@
+		body {
+		background: #eee;
+		text-align: center;
+	}
+	
+	input::-webkit-input-placeholder {
+		text-align: center;
+	}
+	
+	input:-ms-input-placeholder {
+		// IE10+
+		text-align: center;
+	}
+	
+	input:-moz-placeholder {
+		// Firefox4-18
+		text-align: center;
+	}
+	
+	input::-moz-placeholder {
+		// Firefox19+
+		text-align: center;
+	}
+	
+	.warp {
+		width: 1180px;
+		margin: 0 auto;
+		position: relative;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		box-sizing: border-box;
+	}
+	
+	.logo {
+		width: 255px;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.form {
+		margin-top: 40px;
+		position: relative;
+	}
+	
+	.input {
+		font-size: 18px;
+		height: 55px;
+		border: 1px solid #ccc;
+		width: 522px;
+		padding-left: 80px;
+		box-sizing: border-box;
+	}
+	
+	.input::-webkit-input-placeholder {
+		position: relative;
+		left: -40px;
+	}
+	
+	.input:-ms-input-placeholder {
+		// IE10+
+		position: relative;
+		left: -40px;
+	}
+	
+	.input:-moz-placeholder {
+		// Firefox4-18
+		position: relative;
+		left: -40px;
+	}
+	
+	.input::-moz-placeholder {
+		// Firefox19+
+		position: relative;
+		left: -40px;
+	}
+	
+	.range {
+		font-size: 18px;
+		height: 55px;
+		border: 1px solid #ccc;
+		width: 522px;
+		text-align: center;
+		box-sizing: border-box;
+		margin-top: 26px;
+	}
+	
+	.redbtn {
+		width: 515px;
+		height: 55px;
+		font-size: 18px;
+		color: #fff;
+		background-color: #F45353;
+		margin: 0 auto;
+		margin-top: 30px;
+		line-height: 55px;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	
+	.check {
+		position: fixed;
+		width: 628px;
+		left: 50%;
+		margin-left: -314px;
+		top: 100px;
+		z-index: 1001;
+		background-color: #fff;
+		padding: 71px 53px 52px 53px;
+		box-sizing: border-box;
+		font-size: 0px;
+	}
+	.now {
+		height: 55px;
+		width: 120px;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		text-align: center;
+		font-size: 18px;
+		margin-right: 10px;
+	}
+	
+	.now:last-child {
+		margin-right: 0;
+	}
+	
+	.checktitle {
+		margin-bottom: 30px;
+		text-align: left;
+		padding-left: 6px;
+		margin-bottom: 50px!important;
+	}
+	
+	.itemtitle {
+		font-size: 18px;
+		color: #000;
+		text-align: left;
+	}
+	
+	.checktip {
+		font-size: 14px;
+		color: #000;
+		text-align: left;
+		display: inline-block;
+	}
+	
+	.sendtxt {
+		color: #f25368;
+		cursor: pointer;
+	}
+	
+	.passinput {
+		font-size: 18px;
+		height: 55px;
+		border: 1px solid #ccc;
+		width: 513px;
+	}
+	
+	.notice {
+		font-size: 18px;
+		/*color: #ddd;*/
+		text-align: left;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	
+	.warpinput {
+		position: relative;
+		display: inline-block;
+	}
+	
+	.flagitems {
+		height: 55px;
+		width: 80px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		font-size: 0;
+	}
+	
+	.flagitems img {
+		width: 20px;
+	}
+	
+	.flagsel img {
+		margin-top: 21px;
+		margin-left: -10px;
+	}
+	
+	.flagsel {
+		position: relative;
+		height: 55px;
+		vertical-align: middle;
+	}
+	
+	.flagsel::before {
+		content: "";
+		border: 8px solid transparent;
+		border-top-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -3px;
+		right: 12px;
+		width: 0;
+		height: 0;
+	}
+	
+	.open .flagsel::before {
+		content: "";
+		border: 8px solid transparent;
+		border-bottom-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -11px;
+		right: 12px;
+		width: 0;
+		height: 0;
+	}
+	
+	.flagbox {
+		position: relative;
+		background-color: #fff;
+		z-index: 555;
+		display: none;
+	}
+	
+	.open .flagbox {
+		display: block;
+	}
+	
+	.flagitem {
+		padding: 8px 0;
+		border: 1px solid #ccc;
+		border-top: none;
+	}
+	
+	.flagitem::before {
+		content: "";
+		border-left: none;
+		border-right: none;
+	}
+	
+	.checktitle img {
+		width: 22px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 10px;
+		margin-top: -3px;
+	}
+	/*国家列表的样式*/
+
+.passinput{
+	padding-left: 10px;
+}
+.sliderp{
+    padding: 0;
+    padding: 53px;
+}
+.check div{
+	margin-bottom: 20px;
+	  cursor: pointer;
+}
+.check .itemtitle{
+	margin-bottom: 15px;
+	padding-left: 6px;
+	font-weight: 600;
+}
+.titlecss{
+margin-bottom: 25px!important;
+}
+.check .psdtitle{
+	  font-size:24px;
+    color: #000;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.check .checktitle div{
+	margin-bottom: 0px!important;
+}
+.reset{
+	position: fixed;
+    width: auto;
+    left: 50.3%;
+    margin-left: -314px;
+    z-index: 1001;
+    background-color: #fff;
+    padding: 50px 53px 30px 53px;
+    box-sizing: border-box;
+    font-size: 0px;
+    top: 100px;
+}
+.reseton .redbtn {
+    width: 302px;
+    height: 55px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #F45353;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 55px;
+    border-radius: 4px;
+}
+.reseton{
+	left: 56%;
+}
+.codeint{
+	font-size: 18px;
+    height: 55px;
+    border: 1px solid #ccc;
+    width: 400px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: normal;
+}
+.codediv span img{
+	  width: 110px;
+    margin-left: 12px;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 22px;
+    height: 55px;
+}
+.triangle {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+	
+@media only screen and (min-width: 48em){
+	
+}
+@media only screen and (min-width: 20em) and (max-width: 48em) {
+	.warp{
+		width: 100%;
+
+	}
+	.intl-tel-input{
+	 width: 100%!important;
+	 margin: 0 auto;
+	}
+	.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=tel], .intl-tel-input.separate-dial-code input[type=text]{
+	 width: 90%!important;
+	 margin: 0 auto;
+	 height: 45px!important;
+	}
+	.redbtn{
+		width: 90%!important;
+		margin: 30px  auto;
+	}
+	.intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag{
+		width: 60px;
+		left: 10px;
+	}
+	.triangle {
+    right: 30px;
+
+   }
+   .warpinput .phone_div{
+   	width: 90%!important;
+   	text-align: center!important;
+   	margin-left: 5%!important;
+   }
+   .warpinput .country-list {
+    padding-top: 10px!important;
+}
+}
+input::-ms-input-placeholder{text-align: left}
+input::-webkit-input-placeholder{text-align: left}

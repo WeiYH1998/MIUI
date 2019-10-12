@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+		<link rel="stylesheet" href="css/base.css" type="text/css" />
+        <link href="css/login.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/flog.css" />
+		<script src="https://cdn.bootcss.com/angular.js/1.6.8/angular.min.js" language="javascript" type="text/javascript"></script>
+		<script src="js/angular-sanitize.min.js" language="javascript" type="text/javascript"></script>
+
+
+	</head>
+
+	<body ng-app="myApp" ng-controller="detail" ng-cloak>
+		<!-- <div class="warp">
+			<img src="img/logo-2.png" class="logo" />
+			<div class="form" id="formdiv"> -->
+	
+				<div class="intl-tel-input allow-dropdown warpinput">
+					<div class="flag-container">
+						<div class="selected-flag" tabindex="0" >
+							<div class="iti-flag {{floatfloat.classname}} " id="flag_iti"></div>
+						</div>
+					</div>
+				   <input type="text" placeholder="{{languagedata.telplaceholder}}" ng-model="floatfloat.county" class="country_input" id="country_name"  ng-click="showcountryfn($event)" readonly/>
+					<img src="img/triangle_3.png" alt="" class="triangle" ng-show="!isShowSelect">
+					<img src="img/select_up.png" alt="" class="triangle" ng-show="isShowSelect">
+					  <div  class="country-list phone_div" ng-show="showcountry" id="country_list">
+                        <input type="text" placeholder="{{languagedata.country_search}}" id="flag" ng-click="showList($event)" class="search_input"  style="text-align: left;"/>
+                        <ul id="country_ul">
+                        <li class="country preferred" ng-repeat="item in phonelist" ng-click="selcountry(item.county,item.classname,item.phoneCo,$event)" >
+                            <div class="flag-box">
+                                <div class="iti-flag {{item.classname}}"></div>
+                            </div>
+                            <span class="country-name">{{item.county}}</span>
+                            <span class="dial-code">{{item.phoneCo}}</span>
+                        </li>
+                    </ul>
+                    </div>
+				</div>
+<!-- 
+				<div class="codediv"><input type="text"  class="codeint" /><span><img src="image/code.png" /> </span></div>
+			    <div class="btn redbtn " >{{languagedata.nextbtn}}</div> -->
+
+
+			</div>
+
+		</div>
+
+	</body>
+<script type="text/javascript" src="js/login.js"></script>
+</html>
+
