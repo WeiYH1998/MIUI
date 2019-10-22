@@ -1,0 +1,48 @@
+
+    [
+        [ {
+    "good_id":1,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e1e64dcb69a2f8fdc95d8399c23ce400.jpg?w=1212&h=716",
+    "name": "小米无线充电宝 10000mAh",
+    "title": "迄今为止小米最强充电宝 ",
+    "price": "149"
+    }, {
+     "good_id": 2,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f5cb09cab3df90b4bff5bd44c128bc26.jpg?w=1212&h=716",
+    "name": "20W 小米无线充电器",
+    "title": "Qi 充电标准，兼容更多 ",
+    "price": "99"
+    }
+    ],
+
+    [{
+    "good_id": 3,
+    "src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/0b67d91286e8c893c612474c80eb2b36.jpg?w=1212&h=716",
+    "name": "小米移动电源3 20000mAh 高配版",
+    "title": "大容量， 一个就够用 ",
+    "price": "199"
+    }, 
+    {
+
+    "good_id": 4,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f7c0b23adb17136e864f4fd53fd66107.jpg?w=1212&h=716",
+    "name": "小米移动电源3 10000mAh",
+    "title": "双向18W快充 / 输入输出双接口 / 可上飞机， 安全贴心 ",
+    "price": "129"
+    }],
+
+    [{
+         "good_id": 5,
+        "src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/cba128c2bd5a257ebacfa8a3f5abce45.jpg?w=1212&h=716",
+        "name": "小米USB充电器30W快充版（1A1C）",
+        "title": "多一种接口，多一种选择  ",
+        "price": "59"
+    },
+     {
+          "good_id": 6,
+        "src": "https://i8.mifile.cn/b2c-mimall-media/69c6ee62aea1913137273f242231a413.jpg?w=1212&h=716",
+        "name": "小米 Type C USB数据线",
+        "title": "快速充电，稳定传输 ",
+        "price": "16.9"
+    }]
+ ]

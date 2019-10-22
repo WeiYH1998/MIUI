@@ -1,0 +1,270 @@
+
+       [
+           {
+            "name":"家电",
+            "tabs":["热门","电视影音"],
+            "list_left":[
+                {
+                    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b56fd90a60e3d9e5d87dae9fbd427ea8.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+                },
+                {
+                    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a55e311192b618d0c3c243a310fb6648.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+                }
+            ],
+            "list_right":[
+                [
+
+                  {
+                      "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                      "h3": "米家互联网空调C1（一级能效）",
+                      "desc": "变频节能省电，自清洁",
+                      "priceA": "2599元",
+                      "priceB": "2799元"
+                  },
+                  {
+                      "src": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg?thumb=1&w=200&h=200",
+                      "h3": "米家空调",
+                      "desc": "出众静音，快速制冷热",
+                      "priceA": "1699元",
+                      "priceB": "1799元"
+                  },
+                  {
+                      "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                      "h3": "米家互联网洗烘一体机 Pro 10kg",
+                      "desc": "智能洗烘，省心省力",
+                      "priceA": "2999元",
+                      "priceB": ""
+                  },
+                  {
+                      "src": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg",
+                      "h3": "小米电视4A 32英寸",
+                      "desc": "人工智能系统，高清液晶屏",
+                      "priceA": "699元",
+                      "priceB": "799元"
+                  },
+                  {
+                      "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                      "h3": "Redmi全自动波轮洗衣机1A 8kg",
+                      "desc": "一键操作，父母都爱用",
+                      "priceA": "699元",
+                      "priceB": "799元"
+                  },
+                  {
+                      "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                      "h3": "小米全面屏电视E55A",
+                      "desc": "全面屏设计，人工智能语音",
+                      "priceA": "1799元",
+                      "priceB": "2099元"
+                  },
+                  {
+                      "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cd2aa2dcad6440b469c22e27db9b6236.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                      "h3": "15.6\" 四核i7 16G 独显 512G",
+                      "desc": "全面均衡的国民轻薄本",
+                      "priceA": "4699元",
+                      "priceB": "4899元"
+                  },
+                  {
+                      "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg?thumb=1&w=100&h=100&f=webp&q=90",
+                      "h3": "Air 13.3\" 2019款",
+                      "desc": "",
+                      "priceA": "4699元起",
+                      "priceB": ""
+                  }
+              ],
+                [{
+                        "src": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633!200x200.jpg",
+                        "h3": "小米电视4A 32英寸",
+                        "desc": "人工智能系统，高清液晶屏",
+                        "priceA": "699元",
+                        "priceB": "799元"
+                    },
+                    {
+                        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                        "h3": "小米全面屏电视E55A",
+                        "desc": "全面屏设计，人工智能语音",
+                        "priceA": "1799元",
+                        "priceB": "2099元"
+                    },
+                    {
+                        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3317a291b112aa4712059ad93263668.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                        "h3": "小米全面屏电视E65A",
+                        "desc": "全面屏设计，人工智能语音",
+                        "priceA": "2999元",
+                        "priceB": "3999元"
+                    },
+                    {
+                        "src": "https://i8.mifile.cn/b2c-mimall-media/ede227c1f0e3472fb8dcfae980d1e43f!200x200.jpg",
+                        "h3": "小米电视4X 43英寸",
+                        "desc": "FHD全高清屏，人工智能语音",
+                        "priceA": "1299元",
+                        "priceB": "1499元"
+                    },
+                    {
+                        "src": "https://i8.mifile.cn/v1/a1/cef8a9c0-2386-5b66-9ed2-6b1d4e4490bf!200x200.jpg",
+                        "h3": "小米电视4C 55英寸",
+                        "desc": "4K HDR，人工智能系统",
+                        "priceA": "1699元",
+                        "priceB": "1999元"
+                    },
+                    {
+                        "src": "https://i8.mifile.cn/b2c-mimall-media/91b59cc6474e0cd777445b15adb13980!200x200.jpg",
+                        "h3": "小米电视4A 65英寸 ",
+                        "desc": "4K HDR，人工智能语音系统",
+                        "priceA": "2699元",
+                        "priceB": "2999元"
+                    },
+                    {
+                        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e7eee530e4a103f2f5a0937a14bed53.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                        "h3": "小米壁画电视 65英寸",
+                        "desc": "壁画外观，全面屏，远场语音",
+                        "priceA": "6999元",
+                        "priceB": ""
+                    },
+                    {
+                        "src": "https://i8.mifile.cn/b2c-mimall-media/aa8a6ce3b2b1201d74d0197482f3403b!100x100.jpg",
+                        "h3": "小米盒子4",
+                        "desc": "",
+                        "priceA": "299元",
+                        "priceB": ""
+                    }
+                ]
+
+        ]
+
+       },
+       {
+           "name": "智能",
+           "tabs": ["热门", "出行"],
+           "list_left": [{
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/45c23f5b9a927b2dc49c25277e07727c.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+               },
+               {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a660ce095e8f553a9ed1515265f4e9fc.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+               }
+           ],
+           "list_right": [
+               [{
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/011dd8493ad62f3793dbb63d9fbd3bc0.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "小米「小爱老师」",
+                   "desc": "口袋里的英语外教",
+                   "priceA": "499元",
+                   "priceB": ""
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0baacf6e54cbf89cab2c543cc02344e9.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "小米米家智能门锁 推拉式",
+                   "desc": "一步推拉，高端智能门锁",
+                   "priceA": "1599元",
+                   "priceB": "1699元"
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e7c6e79433c883e1a022ec21402c1679.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "小米小爱音箱 Play",
+                   "desc": "听音乐、语音遥控家电",
+                   "priceA": "99元",
+                   "priceB": "169元"
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/44a30f0da2aacb66a0f896293ebc703f.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "小爱音箱万能遥控版 ",
+                   "desc": "传统家电秒变智能",
+                   "priceA": "149元",
+                   "priceB": "199元"
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b42e49c6c0208f2de5a2f7a491a3af46.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "米家电饭煲4L",
+                   "desc": "890W 立体加热 ",
+                   "priceA": "269元",
+                   "priceB": "299元"
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e850fa029579ba886e3d5c81f00ae534.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "小米手环4",
+                   "desc": "大屏彩显，20天超长续航",
+                   "priceA": "169元",
+                   "priceB": ""
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c65d472682f0679e192dc7b4cd6e64c.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+                   "h3": "米家九号平衡轮",
+                   "desc": "能花式酷玩的“风火轮”",
+                   "priceA": "999元",
+                   "priceB": ""
+               }, {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/550177d2e54387521bce9e78cb2949dd.jpg?thumb=1&w=100&h=100&f=webp&q=90",
+                   "h3": "小米体脂秤2",
+                   "desc": "",
+                   "priceA": "99元",
+                   "priceB": ""
+               }],
+               [{
+                       "src": "https://i8.mifile.cn/v1/a1/768992ca-4136-92f1-244a-0194a81a6360!200x200.jpg",
+                       "h3": "小米米家电动滑板车",
+                       "desc": "便携折叠，自由穿行",
+                       "priceA": "1999元",
+                       "priceB": ""
+                   },
+                   {
+                       "src": "https://i8.mifile.cn/b2c-mimall-media/18a82e7cda6ecbc22ecee7ac927d6ff9!200x200.jpg",
+                       "h3": "米兔折叠婴儿推车",
+                       "desc": "出发去向往的地方",
+                       "priceA": "669元",
+                       "priceB": "699元"
+                   },
+                   {
+                       "src": "https://i8.mifile.cn/b2c-mimall-media/553b5c01820c844565abe64e50bba323!200x200.jpg",
+                       "h3": "米兔遥控小飞机",
+                       "desc": "迷你酷玩具，溜到飞起",
+                       "priceA": "399元",
+                       "priceB": ""
+                   },
+                   {
+                       "src": "https://i8.mifile.cn/v1/a1/cdc5c77b-d7e9-5a42-f848-3ff1808a139a!200x200.jpg",
+                       "h3": "米家车载空气净化器",
+                       "desc": "高效净化车内空气",
+                       "priceA": "449元",
+                       "priceB": ""
+                   },
+                   {
+                       "src": "https://i8.mifile.cn/v1/a1/aaa1593d-9ca7-2944-3b62-380cc3427d82!200x200.jpg",
+                       "h3": "AMAZFIT 运动手表",
+                       "desc": "扔掉手机去跑步",
+                       "priceA": "799元",
+                       "priceB": ""
+                   },
+                   {
+                       "src": "https://i8.mifile.cn/v1/a1/877d3ce8-68ab-7506-2a78-55a8c0fba946!200x200.png",
+                       "h3": "九号平衡车 Plus",
+                       "desc": "一个形影不离的新伙伴",
+                       "priceA": "3499元",
+                       "priceB": ""
+                   },
+                   {
+                       "src": "https://i8.mifile.cn/b2c-mimall-media/61472c3fcd181959055551e5c73aafec!200x200.jpg",
+                       "h3": "米家车载逆变器",
+                       "desc": "双USB充电口，国际组合插孔",
+                       "priceA": "199元",
+                       "priceB": ""
+                   },
+                   {
+                       "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0294e2f3997bf0cffb7bf48361d03588.jpg?thumb=1&w=100&h=100&f=webp&q=90",
+                       "h3": "米家充气宝",
+                       "desc": "",
+                       "priceA": "199元",
+                       "priceB": ""
+                   }
+               ]
+           ]
+       }
+    ]
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+     
+      

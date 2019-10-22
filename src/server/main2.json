@@ -1,0 +1,122 @@
+       [{
+           "name": "智能",
+           "tabs": ["热门", "出行"],
+           "list_left":[
+               {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/45c23f5b9a927b2dc49c25277e07727c.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+               },
+               {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a660ce095e8f553a9ed1515265f4e9fc.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+               }
+           ],
+           "list_right":[
+                [{
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/011dd8493ad62f3793dbb63d9fbd3bc0.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "小米「小爱老师」",
+               "desc": "口袋里的英语外教",
+               "priceA": "499元",
+               "priceB": ""
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0baacf6e54cbf89cab2c543cc02344e9.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "小米米家智能门锁 推拉式",
+               "desc": "一步推拉，高端智能门锁",
+               "priceA": "1599元",
+               "priceB": "1699元"
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e7c6e79433c883e1a022ec21402c1679.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "小米小爱音箱 Play",
+               "desc": "听音乐、语音遥控家电",
+               "priceA": "99元",
+               "priceB": "169元"
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/44a30f0da2aacb66a0f896293ebc703f.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "小爱音箱万能遥控版 ",
+               "desc": "传统家电秒变智能",
+               "priceA": "149元",
+               "priceB": "199元"
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b42e49c6c0208f2de5a2f7a491a3af46.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "米家电饭煲4L",
+               "desc": "890W 立体加热 ",
+               "priceA": "269元",
+               "priceB": "299元"
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e850fa029579ba886e3d5c81f00ae534.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "小米手环4",
+               "desc": "大屏彩显，20天超长续航",
+               "priceA": "169元",
+               "priceB": ""
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c65d472682f0679e192dc7b4cd6e64c.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+               "h3": "米家九号平衡轮",
+               "desc": "能花式酷玩的“风火轮”",
+               "priceA": "999元",
+               "priceB": ""
+           }, {
+               "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/550177d2e54387521bce9e78cb2949dd.jpg?thumb=1&w=100&h=100&f=webp&q=90",
+               "h3": "小米体脂秤2",
+               "desc": "",
+               "priceA": "99元",
+               "priceB": ""
+           }],
+           
+           [{
+                   "src": "https://i8.mifile.cn/v1/a1/768992ca-4136-92f1-244a-0194a81a6360!200x200.jpg",
+                   "h3": "小米米家电动滑板车",
+                   "desc": "便携折叠，自由穿行",
+                   "priceA": "1999元",
+                   "priceB": ""
+               },
+               {
+                   "src": "https://i8.mifile.cn/b2c-mimall-media/18a82e7cda6ecbc22ecee7ac927d6ff9!200x200.jpg",
+                   "h3": "米兔折叠婴儿推车",
+                   "desc": "出发去向往的地方",
+                   "priceA": "669元",
+                   "priceB": "699元"
+               },
+               {
+                   "src": "https://i8.mifile.cn/b2c-mimall-media/553b5c01820c844565abe64e50bba323!200x200.jpg",
+                   "h3": "米兔遥控小飞机",
+                   "desc": "迷你酷玩具，溜到飞起",
+                   "priceA": "399元",
+                   "priceB": ""
+               },
+               {
+                   "src": "https://i8.mifile.cn/v1/a1/cdc5c77b-d7e9-5a42-f848-3ff1808a139a!200x200.jpg",
+                   "h3": "米家车载空气净化器",
+                   "desc": "高效净化车内空气",
+                   "priceA": "449元",
+                   "priceB": ""
+               },
+               {
+                   "src": "https://i8.mifile.cn/v1/a1/aaa1593d-9ca7-2944-3b62-380cc3427d82!200x200.jpg",
+                   "h3": "AMAZFIT 运动手表",
+                   "desc": "扔掉手机去跑步",
+                   "priceA": "799元",
+                   "priceB": ""
+               },
+               {
+                   "src": "https://i8.mifile.cn/v1/a1/877d3ce8-68ab-7506-2a78-55a8c0fba946!200x200.png",
+                   "h3": "九号平衡车 Plus",
+                   "desc": "一个形影不离的新伙伴",
+                   "priceA": "3499元",
+                   "priceB": ""
+               },
+               {
+                   "src": "https://i8.mifile.cn/b2c-mimall-media/61472c3fcd181959055551e5c73aafec!200x200.jpg",
+                   "h3": "米家车载逆变器",
+                   "desc": "双USB充电口，国际组合插孔",
+                   "priceA": "199元",
+                   "priceB": ""
+               },
+               {
+                   "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0294e2f3997bf0cffb7bf48361d03588.jpg?thumb=1&w=100&h=100&f=webp&q=90",
+                   "h3": "米家充气宝",
+                   "desc": "",
+                   "priceA": "199元",
+                   "priceB": ""
+               }
+           ]
+        ]
+       }
+    ]

@@ -1,0 +1,36 @@
+{"data1":[{
+        "name": "小米秒杀",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82abdba456e8caaea5848a0cddce03db.png?w=48&h=48",
+         "href": "https://www.mi.com/seckill/"
+    }, {
+        "name": "企业团购",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/806f2dfb2d27978e33fe3815d3851fa3.png?w=48&h=48",
+         "href": "https://qiye.mi.com/"
+    }, {
+        "name": "F码通道",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eded6fa3b897a058163e2485532c4f10.png?w=48&h=48",
+        "href": "https://www.mi.com/order/fcode"
+    }, {
+        "name": "米粉卡",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/43a3195efa6a3cc7662efed8e7abe8bf.png?w=48&h=48",
+        "href": "https://www.mi.com/mimobile/"
+    }, {
+        "name": "以旧换新",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f4846bca6010a0deb9f85464409862af.png?w=48&h=48",
+        "href": "https://huanxin.mi.com/"
+    }, {
+        "name": "话费充值",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9a76d7636b08e0988efb4fc384ae497b.png?w=48&h=48",
+         "href": "https://recharge.10046.mi.com/"
+    }],
+    "data2":[{   
+        "name":"banner-nav",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b7e3eb789b2050d0975fda0474a1c79f.jpg?w=632&h=340"
+    }, {
+        "name": "banner-nav",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e7b51b721c3319e9c2916cc41cd9c695.jpg?w=632&h=340"
+    }, {
+        "name": "banner-nav",
+        "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/816a66edef10673b4768128b41804cae.jpg?w=632&h=340"
+    }]
+    }

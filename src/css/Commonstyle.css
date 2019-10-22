@@ -1,0 +1,727 @@
+html,
+body {
+    height: 100%;
+}
+
+/* 头部 */
+.top-wrap {
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    height: 40px;
+    background: #333;
+}
+
+.top-list {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.top-nav {
+    line-height: 40px;
+}
+
+.top-nav a {
+    display: inline-block;
+    height: 40px;
+    font-size: 12px;
+    color: #B0B0B0;
+}
+
+.top-nav span {
+    font-size: 12px;
+    color: #424242;
+    margin: 0 3.6px;
+}
+
+.top-register {
+    width: 143px;
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+
+.top-car {
+    width: 120px;
+    height: 40px;
+    position: relative;
+    float: right;
+    text-align: center;
+    background: #424242;
+
+}
+
+.top-car span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    color: #B0B0B0;
+    line-height: 40px;
+
+}
+
+.top-nav a:hover {
+    color: #fff;
+}
+
+.downloadApp {
+    display: inline-block;
+    width: 124px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 50%;
+    font-size: 14px;
+    color: #333;
+    transform: translateX(-70px);
+    box-shadow: 0 1px 5px #aaa;
+    display: none;
+    background: #fff;
+    z-index: 998;
+}
+
+.top-car .Car {
+    display: inline-block;
+    width: 316px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, .15); */
+    display: none;
+    line-height: 100px;
+    font-size: 12px;
+    color: #333;
+    background: #fff;
+    z-index: 999;
+
+}
+
+.top-header-wrap {
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+}
+
+.top-header {
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    /* background: aqua; */
+    position: relative;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    /* background: red; */
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+    background: url(../img/CSSSatyr.png) no-repeat left center;
+}
+
+.title-list {
+    height: 100px;
+    margin-left: 238px;
+    float: left;
+    position: relative;
+
+}
+
+.list-item {
+    float: left;
+    cursor: pointer;
+    padding: 0 10px 0;
+    color: #333;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    margin-left: 0;
+    line-height: 100px;
+    ;
+
+}
+
+.search-wrap {
+    width: 296px;
+    height: 50px;
+    float: right;
+    line-height: 100px;
+    margin-top: 25px;
+    border: 1px solid #999;
+    position: relative;
+}
+
+.search-input {
+    display: block;
+    width: 245px;
+    height: 48px;
+    padding: 0 10px;
+    border: 0;
+    outline: medium;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+.search {
+    display: block;
+    width: 49px;
+    height: 48px;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+
+.input-none {
+    width: 245px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #ff6700;
+    display: none;
+    position: absolute;
+    z-index: 800;
+    top: 48px;
+
+}
+
+.product-wrap {
+    width: 100%;
+    height: 229px;
+    background: #fff;
+    display: none;
+    border-bottom: 1px solid #999898;
+    box-shadow: 0px 2px 5px #999898;
+    position: absolute;
+    z-index: 997;
+}
+
+.list {
+    width: 1226px;
+    margin: 0 auto;
+    background: antiquewhite;
+
+}
+
+.product-wrap li {
+    width: 203px;
+    float: left;
+    text-align: center;
+}
+
+.top-pice {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+}
+
+.price {
+    font-size: 14px;
+    color: #ff6709;
+    line-height: 30px;
+}
+
+.PowerBank-title-wrap h2{
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 60px;
+        float: left;
+}
+.PowerBank-title-wrap{
+    width: 100%;
+    
+}
+.PowerBank-title-title{
+    width: 1226px;
+    height: 60px;
+    margin-bottom: 3px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.PowerBank-title-list{
+    position: absolute;
+    top: 50%;
+    margin-top: -9.5px;
+    right: 0;
+}
+.PowerBank-title-list li{
+    float: left;
+}
+.PowerBank-title-list li a:hover{
+    color:#ff6700
+}
+.PowerBank-title-list li span{
+    margin: 0 3.5px;
+    
+}
+.PowerBank-title-list li a{
+    font-size: 14px;
+    color: #616161;
+}
+.PowerBank-login-text{
+    background: #f7f7f7;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+     border-top: 1px solid #b5b5b5;
+    font-size: 14px;
+}
+.login-text{
+    color: #ff6700;
+    margin-left: 25px;
+}
+.close{
+    color: #b5b5b5;
+    font-size: 26px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.main-wrap{
+    width: 1226px;
+    height: 710px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.message-wrap{
+    width: 606px;
+    height: 682px;
+    float: right;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.close{
+    cursor: pointer;
+}
+.message-name{
+        margin: 0;
+        font-size: 24px;
+        font-weight: normal;
+}
+.sale-desc{
+        color: #b0b0b0;
+        margin: 0;
+        padding: 0;
+        padding-top: 8px;
+        font-size: 14px;
+}
+.aftersale-company{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #ff6700;
+    margin-bottom: 10px;
+}
+.pro-price{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1;
+    color: #ff6700;
+    display: inline-block;
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.address-wrap{
+    width: 606px;;
+    height: 104px;
+    padding: 30px 40px 30px 50px;
+    border: 1px solid #b5b5b5;
+    background: #fafafa;
+}
+.address-wrap span{
+    font: 14px;
+    margin-right: 14px;
+    color: #333;
+}
+.address-wrap a{
+    color: #ff6700;
+}
+.model{
+    width: 298px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    position: relative;
+}
+.model img{
+       width: 16px;
+       height: 16px;
+       border-radius: 50%;
+       margin-right: 10px;
+       vertical-align: middle;
+       margin-top: -2px;
+       position: absolute;
+       left: 35%;
+       top: 50%;
+       margin-top: -8px;
+}
+.model a{
+    text-align: center;
+    font-size: 16px;
+}
+.Cur {
+    color: #ff6700;
+}
+.ative{
+    border: 1px solid #ff6700;
+    margin-bottom: 30px;
+}
+.pro-list{
+    background: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.pro-list ul li{
+    list-style: none;
+    line-height: 30px;
+    color: #616161;
+}
+.pro-list-price{
+        float: right;
+}
+.pro-list .totlePrice {
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.btn-wrap{
+    width:606px;
+    height: 56px;
+}
+.btn-warp li{
+        *zoom: 1;
+        *display: inline;
+        margin-right: 10px;
+        vertical-align: text-top;
+}
+.btn-primary{
+    width: 300px;
+    height: 54px;
+    float: left;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    line-height: 54px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-primary a{
+    font-size: 16px;
+    color: #fff;
+}
+.btn-primaryB{
+    width: 154px;
+    height: 54px;
+    line-height: 54px;
+    background: #b0b0b0;
+    float: left;
+    text-align: center;
+   
+}
+.btn-primaryB a{
+ color: #fff;
+}
+.deliver{
+    width: 606px;
+    height: 41px;
+}
+.deliver li{
+    width: 140px;
+    float: left;
+    color: #B0B0B0;
+    font-size: 14px;
+    background: url(../img/aaa_03.jpg) no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.priceDescription{
+    height: 316px;
+    background: #f5f5f5;
+}
+.explain{
+    width: 1226px;
+    height: 316px;
+    margin: 0 auto;
+}
+.explain h3{
+ font-size: 22px;
+ font-weight: normal;
+ margin-top: 0;
+ margin-bottom: 0;
+ padding: 1em 0;
+}
+.explain-pic{
+    height: 300PX;
+    /* background: url(//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a482afa34053b1b32ece1023475af7fb.jpeg) 50% 0px / auto 100% no-repeat; */
+}
+.Pic-A{
+        float: left;
+        height: 100%;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+        width: 100%;
+}
+
+/* 售后服务 */
+.after-wrap {
+    width: 100%;
+}
+
+.after-content {
+    width: 1226px;
+    height: 272px;
+    margin: 0 auto;
+
+}
+
+.content-title {
+    height: 80px;
+}
+
+.title-listA {
+    /* line-height: 80px; */
+    padding: 27PX 0;
+
+}
+
+.title-listA li {
+    width: 245.2px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+
+.title-listA li:nth-child(1) {
+    border-left: 0;
+}
+
+.title-listA li a {
+    color: #616161;
+}
+
+.title-listA li a:hover {
+    color: #ff6700
+}
+
+.content-list {
+    width: 1226px;
+    height: 192px;
+    padding: 40px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.content-listB {
+    width: 160px;
+    height: 112px;
+    float: left;
+
+}
+
+.content-listB li {
+    margin: 10px 0 0;
+    ;
+}
+
+.content-listB li a {
+    color: #757575;
+    font-size: 12px;
+}
+
+.content-listB li a:hover {
+    color: #ff6700;
+}
+
+.content-list-C {
+    width: 252px;
+    height: 112px;
+    float: left;
+    position: relative;
+
+}
+
+.content-list-C p {
+    text-align: center;
+    font-size: 12px;
+    color: #616161;
+
+
+}
+
+.content-list-C p:nth-of-type(1) {
+    font-size: 22px;
+    color: #ff6700;
+    margin: 10px 0 0;
+    /* margin-bottom: 10px; */
+}
+
+.content-list-C a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 2px;
+    border: 1px solid #ff6700;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: #ff6700;
+}
+
+.content-list-C a:hover {
+    background: #ff6700;
+    color: #fff;
+    transition: 0.5s initial;
+    -webkit-transition: all .2s linear;
+}
+
+/* 底部 */
+.footer-wrap {
+    padding: 30px 0;
+    background: #f5f5f5;
+}
+
+.footer-content {
+    width: 1226px;
+    /* height:250px ; */
+    margin: 0 auto;
+}
+
+.footer-one-logo {
+    float: left;
+    width: 57px;
+    height: 141px;
+}
+
+.footer-one-list {
+    width: 1159px;
+    height: 141px;
+    float: right;
+}
+
+.footer-one-list ul {
+    height: 37px;
+    /* margin-bottom: 10px; */
+}
+
+.footer-one-list li {
+    float: left;
+    padding: 0 2px;
+    font-size: 12px;
+    color: #757575;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.footer-one-list li:hover {
+    color: #ff6700
+}
+
+.footer-records {
+    height: 72px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.footer-records a {
+    color: #b0b0b0;
+}
+
+.footer-records a:hover {
+    color: #ff6700;
+}
+
+.info-links img {
+    width: auto;
+    height: 28px;
+    margin-left: 0;
+    margin-bottom: 15px;
+    float: left;
+    /* margin-top: 15px; */
+}
+
+.slogan {
+    clear: both;
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    background: url(//s02.mifile.cn/assets/static/image/slogan2016.png) no-repeat center 0;
+
+}
+
+/* 购物车样式 */
+  .cart {
+      height: 160px;
+      width: 30px;
+      text-align: center;
+      color: #fff;
+      position: fixed;
+      right: 0;
+      top: 50%;
+      margin-top: -50px;
+      background: #000;
+      /* border: 1px solid #000; */
+  }
+
+  .cart-icon {
+      width: 20px;
+      height: 20px;
+      margin-top: 10px;
+  }
+
+  .cart_total {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      color: #fff;
+      background: red;
+      border-radius: 10px;
+      text-align: center;
+      margin-left: 5px;
+      margin-top: 8px;
+  }
+
+  .addCart {
+      border: 1px solid #ccc;
+      width: 120px;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 100px;
+      text-align: center
+  }
+
+  .addCart:hover {
+      border: 1px solid red;
+      color: red;
+  }
+  .cart-tip{
+      cursor: pointer;
+  }

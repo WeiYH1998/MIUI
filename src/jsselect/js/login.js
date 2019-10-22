@@ -236,7 +236,7 @@ main.controller("detail", function($scope, $http, $interval, $timeout, $window) 
 	var languagetype = $scope.language;
 	var data = ''
 	function getphone() {
-		var url = 'countryJson.json'
+		var url = '../jsselect/countryJson.json'
 		$http.get(url).then(function(v) {
 			console.log(v);
 			console.log(languagetype)

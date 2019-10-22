@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米账号-登录</title>
+    <link rel="stylesheet" href="../css/Login.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/Login.js"></script>
+</head>
+
+<body>
+    <div class="body-warp">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="//www.mi.com/index.html"><img src="../img/login_logo.png" alt=""></a>
+        </div>
+        <!-- banner -->
+        <div class="banner-wrap">
+            <a class="banner" href="//www.mi.com/index.html"></a>
+            <!-- 登录 -->
+            <div class="login-wrap">
+                <div class="login-text">
+                    <a class="text title">账号登录</a>
+                    <span></span>
+                    <a class="text">扫码登录</a>
+                </div>
+
+                <div class="dl">
+                    <!-- 账号登录页面 -->
+                    <div class="login-main-A login">
+                        <form action="" class="form-A">
+                            <!-- 手机号码 -->
+                            <div class="input A">
+                                <input type="text" class="input-phone" placeholder="手机号码">
+                                <div class="Region">
+                                    <span>+86</span>
+                                </div>
+                            </div>
+
+                            <!--短信验证码  -->
+                            <div class="input B">
+                                <input type="text" class="input-note" placeholder="短信验证码">
+                                <div class="note">
+                                    <a href="">短信验证码</a>
+                                </div>
+                                
+                            </div>
+                            <span class="note-text"></span>
+
+                            <!-- 注册按钮 -->
+                            <div class="register-wrap">
+                                <input class="register" type="submit" value="立即登录/注册">
+                            </div>
+                        </form>
+                        
+                        <div class="mode">
+                            <p>
+                                <a href="">用户名密码登录</a>
+                            </p>
+                            <div class="oth-wrap">
+                                <fieldset class="oth_type_tit">
+                                    <legend align="center" class="oth_type_txt">其他方式登录</legend>
+                                </fieldset>
+                                <div id="sns-login-links" class="oth_type_links">
+                                    <!-- QQ -->
+                                    <a class="icon_type btn_qq sns-login-link"
+                                        data-type="qq"href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100284651&redirect_uri=https://account.xiaomi.com/pass/sns/login/load&state=STATE_685489" title="QQ登录" target="_blank">
+                                        <i class="btn_sns_icontype icon_default_qq"></i>
+                                    </a>
+                                    <!-- 微博 -->
+                                    <a class="icon_type btn_weibo sns-login-link" data-type="weibo"  href="https://api.weibo.com/oauth2/authorize?response_type=code&client_id=2996826273&redirect_uri=https://sns.account.xiaomi.com/pass/sns/login/load&state=STATE_201717"
+                                        title="微博登录" target="_blank">
+                                        <i class="btn_sns_icontype icon_default_weibo"></i>
+                                    </a>
+                                    <!-- 支付宝 -->
+                                    <a class="icon_type btn_alipay sns-login-link" data-type="alipay" href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3D5360a74cd40c4f0d6945ef0b3a4da6d6" title="支付宝登录" target="_blank">
+                                        <i class="btn_sns_icontype icon_default_alipay"></i>
+                                    </a>
+                                    <!-- 微信 -->
+                                    <a class="icon_type btn_weixin sns-login-link" data-type="weixin"
+                                        href="https://open.weixin.qq.com/connect/qrconnect?appid=wxa21de3acc0d5e79b&redirect_uri=https%3A%2F%2Fsns.account.xiaomi.com%2Fpass%2Fsns%2Flogin%2Fload&response_type=code&scope=snsapi_login&state=STATE_872576#wechat_redirect"
+                                        title="微信登录" target="_blank">
+                                        <i class="btn_sns_icontype icon_default_weixin"></i>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 扫码登录页面 -->
+                    <div class="scan login">
+                        <div class="scan-img">
+                            <img src="../img/app.png" alt="" width="180" height="180">
+                        </div>
+                        <div class="custom_sub_txt">
+                            <p id="custom-qr-name">
+                                使用<span>小米商城APP</span>扫一扫
+                            </p>
+                            <p>小米手机可打开「设置」&gt;「小米帐号」扫码登录</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 底部 -->
+        <!-- <div class="footer">
+            <p>
+                <a href="">简体</a>
+                <span>|</span>
+                <a href="">繁体</a>
+                <span>|</span>
+                <a href="">English</a>
+                <span>|</span>
+                <a href="">常见问题</a>
+            </p>
+
+            <p>
+                <span>
+                    小米公司版权所有-京ICP备10046444-
+                    <a class="beianlink beian-record-link" target="_blank"
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134">
+                        <span>
+                            <img
+                                src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png">
+                        </span>京公网安备11010802020134号</a>-京ICP证110507号
+                </span>
+            </p>
+        </div> -->
+
+    </div>
+</body>
+
+</html>

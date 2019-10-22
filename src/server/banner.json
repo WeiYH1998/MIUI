@@ -1,0 +1,32 @@
+{
+    "data1":[{"href": "https://www.mi.com/redmik20pro-prime" ,
+    "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec551f3400072a2009ea4ee56db8a973.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+    }],
+
+    "data2": [{
+        "href":"https://www.mi.com/a/h/9819.html",
+        "src":"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e63ab43e7c32296f18f34c8efb41534.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+    }]
+    ,
+    "data3": [{
+        "href":"//item.mi.com/10025.html",
+       "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/59e8fc8ba9718c266882719fb4bbcedd.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+    }],
+    "data4": [{
+        "href": "//www.mi.com/a/h/12065.html",
+        "src": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cc31874e38ff756bee7060695109571a.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+    }],
+    "data5": [{
+        "href" : "https://www.mi.com/airenergy/",
+        "src" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/89c2a209b742fce9b10d9d196149d634.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+
+    }],
+    "data6": [{
+        "href" : "//item.mi.com/10327.html",
+        "src" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/10fb0086cb21120c53248a3d8cc56dc5.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+    }],
+    "data7": [{
+        "href" : "//item.mi.com/9836.html",
+        "src" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/88e35cffc82cd98cd53172460067af17.jpg?thumb:1&w:1226&h:120&f:webp&q:90"
+    }]
+}

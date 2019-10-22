@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title src="../">小米商城</title>
+    <link rel="stylesheet" href="../css/base.css">
     <script src="../js/jquery-3.4.1.js"></script>
     <script src="../js/miui.js"></script>
+    <link rel="stylesheet" href="../css/ListPages.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/Mi.css">
     <link rel="stylesheet" href="../font/iconfont.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../font_up3bv0dsdof/iconfont.css">
+    <link rel="stylesheet" href="../jQueryMnav/css/style.css">
+    <link rel="stylesheet" href="../font_512tywe2cmg/iconfont.css">
 
+    <!-- 无缝滚动插件 -->
+    <script src="../jquerygd/js/style.js"></script>
+    <link rel="stylesheet" href="../jquerygd/css/js.css">
+</head>
+
+<body>
+    <!-- 右边固定栏 -->
+    <div class="home-tool-wrap">
+        <ul class="home-list">
+            <li><p class="iconfont icon-weibiaoti1"></p><a href="">手机app</a>
+                 <div class="down"><img src="https://i8.mifile.cn/b2c-mimall-media/93650133310ec1c385487417a472a26c.png" alt="">
+                    <p>手机扫一扫</p>
+                    <p>分享赢好礼</p>
+                </div>
+            </li>
+            <li><p class="iconfont icon-geren"></p><a href="">个人中心</a></li>
+            <li><p class="iconfont icon-shouhou"></p><a href="">售后服务</a></li>
+            <li><p class="iconfont icon-kefu"></p><a href="">人工客服</a></li>
+            <li><p class="iconfont icon-gouwuche"></p><a href="">购物车</a></li>
+            <li style="margin-top: 20px; display:none"> <p class=""></p><a href="">回到顶部</a></li>
+        </ul>
+    </div>
+    
+    <!-- 头部 -->
     <div class="top-wrap">
         <!-- 顶部列表-->
         <div class="top">
@@ -40,37 +68,609 @@
                     <span>|</span>
                     <a href="" class="app">下载app
                         <span class="downloadApp">
-                            <img src="../img/app.png" alt="" style="width:90px;height:90px;margin: 0 auto;margin-top: 10px;">
+                            <img src="../img/app.png" alt=""
+                                style="width:90px;height:90px;margin: 0 auto;margin-top: 10px;">
                             小米商城APP
                         </span>
                     </a>
                     <span>|</span>
                     <a href="">Select Location</a>
+                    <div class="top-car top-nav a">
+                        <span class="iconfont icon-gouwuchekong"></span>
+                        <a href="">购物车
+                            <div class="Car">
+                                购物车中还没有商品，赶紧选购吧
+                            </div>
+                        </a>
+                    </div>
+                    <div class="top-register top-nav a ">
+                        <a href="">登录</a>
+                        <span>|</span>
+                        <a href="">注册</a>
+                        <span>|</span>
+                        <a href="">消息通知</a>
+                    </div>
                 </div>
-                <div class="top-car top-nav a">
-                    <span class="iconfont icon-gouwuchekong"></span>
-                    <a href="">购物车
-                        <div class="Car">
-                            购物车中还没有商品，赶紧选购吧
-                        </div>
-                    </a>
-                </div>
-                <div class="top-register top-nav a ">
-                    <a href="">登录</a>
-                    <span>|</span>
-                    <a href="">注册</a>
-                    <span>|</span>
-                    <a href="">消息通知</a>
-                </div>
+
             </div>
-            
+
         </div>
         <!-- 头部 -->
         <div class="top-header-wrap">
             <div class="top-header">
+                <div class="logo"></div>
+                <!-- <div> -->
+                <ul class="title-list">
+                    <li class="list-item">小米手机</li>
+                    <li class="list-item">Redmi手机</li>
+                    <li class="list-item">电视</li>
+                    <li class="list-item">笔记本</li>
+                    <li class="list-item">家电</li>
+                    <li class="list-item">路由器</li>
+                    <li class="list-item">智能硬件</li>
+                    <li class="list-item">服务</li>
+                    <li class="list-item">社区</li>
+                </ul>
+                <!-- </div> -->
+                <div class="search-wrap">
+                    <input type="text" class="search-input">
+                    <div class="search">
+                        <span class="iconfont icon-sousuo text"></span>
+                    </div>
+                    <div class="input-none"></div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="product-wrap"></div>
+        </div>
+    </div>
+    <!-- banner  左侧边栏 -->
+    <div class="banner-wrap">
+        <div id="big_banner_wrap">
+            <ul id="banner_menu_wrap">
+                        <li class="active" img>
+                            <a>手机&nbsp;电话卡</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 600px; top: -20px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/77bfd346ad97807237beca297cfe2fba.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>Redmi 8A</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/47057d897ee2c05c9215e059e1308dc6.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>Redmi 8</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e8be88112405471cee2c18ae0f1f62d.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>小米MIX Alpha</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3ee5503ee5b2be373525e36309d922f8.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>小米 Pro 5G</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ff29135707919a3b1bcbc286fe1a118b.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>Redmi K20 Pro尊享版</a> </li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cba27e53367b74271a38a4515a692816.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>Redmi Note&nbsp;8Pro</a></li>
+                               </ul>
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b4534b9fd22f478314f3cbbf286b7338.png?thumb=1&w=40&h=40&f=webp&q=90"></a><a>Redmi Note 8</a> </li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b0d7d2c85734b80a1b8d1a4100c9c1f.png?thumb=1&w=40&h=40"></a><a>小米CC9</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?thumb=1&w=40&h=40"></a><a>小米CC美图定制版</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3d3ee15816d2ccbe922172033c3c3941.png?thumb=1&w=40&h=40"></a><a>小米9</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1cce3d767b8841c237cd610833799fe3.png?thumb=1&w=40&h=40"></a><a>小米9</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ebff4a3d7ac1df43737d195cd38a2a37.png?thumb=1&w=40&h=40"></a><a>小米9 SE</a></li>
+                                 </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <a>电视&nbsp;盒子</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 600px; top: -62px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c6f98e59f3e78eb5d959bbcff081562.jpg?thumb=1&w=40&h=40&f=webp&q=90"></a><a>小米电视40英寸</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5732e8f317eb86bfcb174fbb49d00c4a.jpg?thumb=1&w=40&h=40"></a><a>小米电视48英寸</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/18c9d79b3d6c6635c55ba1bb371182af.jpg?thumb=1&w=40&h=40&f=webp&q=90"></a><a>小米电视49英寸</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9a3aff2c5e8207dafd8fc3bfad5a2e21.jpg?thumb=1&w=40&h=40&f=webp&q=90"></a><a>小米电视55英寸</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8aeae36f5d088f22c84b8953bd0d08b4.jpg?thumb=1&w=40&h=40"></a><a>小米盒子</a></li>
+                                    <li>
+                                        <a><img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/820cba6c44f7263c5fe773a7ffaf85b9.png?thumb=1&w=40&h=40"></a><a>小米盒子MINI</a></li>
+                                </ul>
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米电视配件</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>笔记本&nbsp;平板</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 900px; top: -104px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米路由器</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米路由器&nbsp;青春版</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>净化器</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>摄像机</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>体重称</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>智能插头</a></li>
+                                </ul>
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米路由器MINI</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米WIFI放小器</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>运动相机</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>净水器</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>血压计</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>床头灯</a></li>
+                                </ul>
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>智能家庭套装</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米手环</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>全部智能硬件</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>家电&nbsp;插线板</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 300px; top: -146px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米移动电源</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米插线板</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>品牌移动电源</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>移动电源附件</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>出行&nbsp;穿戴</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 300px; top: -188px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米头戴式耳机</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米活塞耳机</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米蓝牙耳机</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>品牌耳机</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>音箱</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>智能&nbsp;路由器</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 300px; top: -230px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>电池</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>充电器</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>线材</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>存储卡</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>电源&nbsp;配件</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 300px; top: -272px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>保护套/保护壳</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>后盖</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>健康&nbsp;儿童</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 600px; top: -314px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>贴膜</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>自拍杆</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>蓝牙手柄</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>贴纸</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>防尘塞</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>手机支架</a></li>
+                                </ul>
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>耳机绕线器</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>随身WIFI</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>耳机&nbsp;音箱</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 300px; top: -356px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>米兔</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>服装</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a>生活&nbsp;背包</a>
+                            <a class="banner_menu_i">&gt;</a>
+                            <div class="banner_menu_content" style="width: 300px; top: -398px;">
+                                <ul class="banner_menu_content_ul">
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>背包</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>小米鼠标坠</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>生活周边</a></li>
+                                    <li>
+                                        <a><img src="../img/shouji.webp"></a><a>玩酷产品</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+            <!-- 轮播图 -->
+            <div id="big_banner_pic_wrap">
+                <ul id="big_banner_pic">
+                    <li><img
+                            src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/18d9558b201c6503c40d4e7538ce0af3.jpg?w=2452&h=920">
+                    </li>
+                    <li><img
+                            src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/784440f9fc601d732dcb21abcd454f12.jpg?thumb=1&w=1226&h=460&f=webp&q=90">
+                    </li>
+                    <li><img
+                            src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d8864c767fd945f6cab0130ca1c46328.jpg?thumb=1&w=1226&h=460&f=webp&q=90">
+                    </li>
+                    <li><img
+                            src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/784440f9fc601d732dcb21abcd454f12.jpg?thumb=1&w=1226&h=460&f=webp&q=90">
+                    </li>
+                    <li><img
+                            src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b642c13442fc0ca455394f34e59a22b3.jpg?thumb=1&w=1226&h=460&f=webp&q=90">
+                    </li>
+                </ul>
+            </div>
+            <div id="big_banner_change_wrap">
+                <div id="big_banner_change_prev">&lt;</div>
+                <div id="big_banner_change_next">&gt;</div>
+            </div>
+        </div>
+        <!-- banner 框架 -->
+        <div class="banner-nav-wrap"> </div>
+    
+    </div>
 
+    <!-- main -->
+    <div class="main-content">
+        <div class="main-margin">
+            <!-- 小米闪购 -->
+            <div class="miShopp">
+                <!-- 左边倒计时 -->
+                <div class="home-flashsale xm-plain-box">
+                    <div class="box-hd">
+                        <h2 class="list-title">小米闪购</h2>
+                    
+                    <!-- <div id="mybtns"> <a href="javascript:;" id="right"></a><a href="javascript:;" id="left"></a> </div> -->
+                    </div>
+                </div>
+                <!-- 右边列表-->
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="flashsale-countdown">
+                            <div class="round">14:00 场</div>
+                            <img src="data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAA1CAYAAAAklDnhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+    bWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+    bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+    eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1
+    MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+    dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+    dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+    IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+    ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+    cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5j
+    ZUlEPSJ4bXAuaWlkOjY4Q0ZFMkY5MTJFNzExRThCMkM4OEM1RTNBNjczQUVBIiB4bXBNTTpEb2N1
+    bWVudElEPSJ4bXAuZGlkOjY4Q0ZFMkZBMTJFNzExRThCMkM4OEM1RTNBNjczQUVBIj4gPHhtcE1N
+    OkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjhDRkUyRjcxMkU3MTFFOEIy
+    Qzg4QzVFM0E2NzNBRUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjhDRkUyRjgxMkU3MTFF
+    OEIyQzg4QzVFM0E2NzNBRUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94Onht
+    cG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5oEyacAAACoklEQVR42sSYv0tbURTHX0LqD6T4g4pE
+    cHDoUOloBxVd/QFFEcQqWtrSKlKFmmAslopohzgIbv4FwUEE0clFujiIi+BSIbRQ0ooKRReRULHf
+    S48Qgu++c3/FAx+iyU3eJzf3nnPuC/1qavQ04zVY8szjCHRGNN9cBD6DSkOJKzAGzsOaH/AW1FuY
+    jRg4EH/oiJSCTxYk1sDK7T86Iu9BraHED/Au9wlVkYdg2lAiC/rBhYnIB/DIUOQj2M9/UkWkCsQN
+    JbbA8l0vqIhMgXIDiZ/gFbgxEakBEwYSf8Eg+OM3gCsyA8oMRETy25UN4IjUgVEDiW2wGDSIIzIL
+    ijUljsFLv3WhIvKYFphOXNO6OOUMDhKZA7qFcQF85Q6WXeQpeKEpcULlvY8xthp8iwR8I93qLLb7
+    KnOsSPWNfhd6Bro99yHqTi9IhyWzEXIsIXbSG7Djt1jbQHsBZkMkyZRs13wpgIRoiJKy7dsBWh1L
+    bN5Vt3JFQrQ2XMYeGKBk5yvSI7aRQ4k0eA4uZZlVPM47lDgTZxd6lKb4AcqkLuKSZiIdVGsiVFNc
+    xDV9yT1Orekjoe+MDw4pHqwmaJewit66Ql0QaX+DOTaZe4DitAFZxQaaEynKnJ6KCDeaQAtj3A7V
+    kBtXIpwT3iFV06zqquaKPKEtKIsM6Mo/StoWiQeMvSCJjO4+54hEwTCjuTk0STgckUm6QxTY3LgU
+    Kc+/jyFrblyKCIkKbnPjSkT8HDGV5saVyBAtVHZz40Ik7HNTRtrcuBARF2tQbW5ciCR0mhvbIs2E
+    cnNjWySh29zYFGnIK25KzY1Nkdziptzc2BKJUu7Qbm5sicQom2o3NzZEKqiu/DZpbmyIjIAHNBMZ
+    7x4iTALjhcgVQSIl3v87w5vePcY/AQYAFYR6skFSqBUAAAAASUVORK5CYII=" alt="">
+                            <div class="desc">距离结束还有</div>
+                            <div class="countdown">
+                                <span class="timer"></span><i>:</i>
+                                <span class="minute">52</span><i>:</i>
+                                <span class="second">37</span>
+                            </div>
+                        
+                        </div>
+                        <div class="box-list"></div>
+                        <div class="scrollpic">
+
+                        </div>
+                </div>
+            </div>
+            </div>
+             <!-- 第一个banner -->
+            <div class="banner1 B1"></div>
+
+            <!-- 手机 -->
+            <div class="phone">
+                <div class="box-hd">
+                    <h2 class="list-title">手机</h2>
+                    <div class="more"><a href="//www.mi.com/a/h/9891.html" class="more-link">查看全部</a></div>
+                </div>
+                <div class="phone-list">
+                    <div class="phone-list-left">
+                        <ul class="brick-promo-list">
+                            <li class="brick-item .brick-item-a">
+                                <a href=""><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/574c6643ab91c6618bfb2d0e2c761d0b.jpg?thumb=1&w=234&h=614&f=webp&q=90" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="All-list-right"></div>
+                </div>
+            </div>
+            <!-- 第二个banner -->
+            <div class="banner1 B2"></div>
+
+            <!-- 家电 -->
+            <div class="Appliances">
+                <div class="Nav-title"></div>
+                <div class="Nav-list">
+                    <div class="Nav-list-left"></div>
+                    <div class="Nav-list-right"> </div>
+                </div>
+            </div>
+
+            <div class="Appliances">
+                <div class="Nav-title"></div>
+                <div class="Nav-list">
+                    <div class="Nav-list-left"></div>
+                    <div class="Nav-list-right"> </div>
+                </div>
+            </div>
+
+            <!-- 第三个banner -->
+            <div class="banner1 B3"></div>
+
+                <div class="Appliances">
+                    <div class="Nav-title"></div>
+                    <div class="Nav-list">
+                        <div class="Nav-list-left"></div>
+                        <div class="Nav-list-right"> </div>
+                    </div>
+                </div>
+
+            <!-- 第四个banner -->
+            <div class="banner1 B4"></div>
+
+                <div class="Appliances">
+                    <div class="Nav-title"></div>
+                    <div class="Nav-list">
+                        <div class="Nav-list-left"></div>
+                        <div class="Nav-list-right"> </div>
+                    </div>
+                </div>
+            <!-- 第五个banner -->
+            <div class="banner1 B5"></div>
+        </div>
+    </div>
+    <!-- 售后服务模块 -->
+    <div class="after-wrap ">
+        <div class="after-content">
+            <div class="content-title">
+                <ul class="title-listA">
+                    <li><a href="">预约维修服务</a></li>
+                    <li><a href="">7天无理由退货</a></li>
+                    <li><a href="">15天免费换货</a></li>
+                    <li><a href="">满150包邮</a></li>
+                    <li><a href="">520余家网点售后</a></li>
+                </ul>
+            </div>
+            <div class="content-list">
+                <ul class="content-listB">
+                    <li><a href="" style="font-size: 14px;color: #424242; ">帮助中心</a></li>
+                    <li><a href="">账户管理</a></li>
+                    <li><a href="">购物指南</a></li>
+                    <li><a href="">订单操作</a></li>
+                </ul>
+                <ul class="content-listB">
+                    <li><a href="" style="font-size: 14px;color: #424242; ">服务支持</a></li>
+                    <li><a href="">售后政策</a></li>
+                    <li><a href="">自主服务</a></li>
+                    <li><a href="">相关下载</a></li>
+                </ul>
+                <ul class="content-listB">
+                    <li><a href="" style="font-size: 14px;color: #424242; ">线下门店</a></li>
+                    <li><a href="">小米之家</a></li>
+                    <li><a href="">服务网点</a></li>
+                    <li><a href="">授权体验店</a></li>
+                </ul>
+                <ul class="content-listB">
+                    <li><a href="" style="font-size: 14px;color: #424242; ">关于小米</a></li>
+                    <li><a href="">了解小米</a></li>
+                    <li><a href="">加入小米</a></li>
+                    <li><a href="">投资者关系</a></li>
+                </ul>
+                <ul class="content-listB">
+                    <li><a href="" style="font-size: 14px;color: #424242; ">关注我们</a></li>
+                    <li><a href="">新浪微博</a></li>
+                    <li><a href="">官方微信</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+                <ul class="content-listB">
+                    <li><a href="" style="font-size: 14px;color: #424242; ">特色服务</a></li>
+                    <li><a href="">F 码通道</a></li>
+                    <li><a href="">礼物码</a></li>
+                    <li><a href="">防伪查询</a></li>
+                </ul>
+                <ul class="content-list-C">
+                    <p>400-100-4567</p>
+                    <p>周一至周日 8:00-18:00</p>
+                    <p>(仅收市话费)</p>
+                    <a href="">
+                        <span>人工客服</span>
+                    </a>
+                </ul>
             </div>
         </div>
     </div>
+    <!-- 底部 -->
+    <div class="footer-wrap">
+        <div class="footer-content">
+            <div class="footer-one">
+                <div class="footer-one-logo">
+                    <img src="https://s02.mifile.cn/assets/static/image/logo-footer.png" alt="">
+                </div>
+                <div class="footer-one-list">
+                    <ul>
+                        <li>小米商城
+                        <li> |
+                        <li>MIUI
+                        <li> |
+                        <li>米家
+                        <li> |
+                        <li>米聊
+                        <li> |
+                        <li>多看
+                        <li> |
+                        <li>游戏
+                        <li> |
+                        <li>路由器
+                        <li> |
+                        <li>米粉卡
+                        <li> |
+                        <li>政企服务
+                        <li> |
+                        <li>小米天猫店
+                        <li> |
+                        <li>小米集团隐私政策
+                        <li> |
+                        <li>小米公司儿童信息保护规则
+                        <li> |
+                        <li>小米商城隐私政策
+                        <li> |
+                        <li>小米商城用户协议
+                        <li> |
+                        <li>问题反馈
+                        <li> |
+                        <li>廉正举报
+                        <li>
+                            |
+                        <li>诚信合规
+                        <li> |
+                        <li>Select Location
+                        <li>
+                    </ul>
+                    <p class="footer-records">
+                        ©
+                        <a href=" " target="_blank" title="mi.com" data-stat-id="bdfd116c84984884"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-bdfd116c84984884', '', 'pcpid', '']);">mi.com</a>
+                        京ICP证110507号
+                        <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow" data-stat-id="09f3ca7af7fc3710"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-09f3ca7af7fc3710', 'http://beian.miit.gov.cn/', 'pcpid', '']);">京ICP备10046444号</a>
+                        <a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134"
+                            target="_blank" data-stat-id="e9d2688beb41458a"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-e9d2688beb41458a', 'http://www.beian.gov.cn/portal/registerSystemInforecordcode=11010802020134', 'pcpid', '']);">京公网安备11010802020134号
+                        </a> <a href="//www.mi.com/culture-license/" target="_blank" data-stat-id="059ce48ed7ed6a36"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-059ce48ed7ed6a36', '//www.mi.com/culture-license/', 'pcpid', '']);">京网文[2017]1530-131号</a>
+                        <br> <a href="//www.mi.com/medical/record/" target="_blank" data-stat-id="97cdd5ee52424ea3"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-97cdd5ee52424ea3', '//www.mi.com/medical/record/', 'pcpid', '']);">（京）网械平台备字（2018）第00005号
+                        </a> <a href="//www.mi.com/medical/qualification/" target="_blank" data-stat-id="f4696bf96a52cdae"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-f4696bf96a52cdae', '//www.mi.com/medical/qualification/', 'pcpid', '']);">互联网药品信息服务资格证
+                            (京) -非经营性-2014-0090
+                        </a> <a href="//www.mi.com/business-license/" target="_blank" data-stat-id="3ed1ade2d90f5e8a"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-3ed1ade2d90f5e8a', '//www.mi.com/business-license/', 'pcpid', '']);">营业执照</a>
+                        <a href="//www.mi.com/medical/list/" target="_blank" data-stat-id="5186b38734e64ad1"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-5186b38734e64ad1', '//www.mi.com/medical/list/', 'pcpid', '']);">医疗器械公告</a>
+                        <br> <a href="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/af5b8ef38e7d57c5ee7fa4289ccf4df8.png"
+                            target="_blank" data-stat-id="22eb6b5cf4b462d7"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-22eb6b5cf4b462d7', '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/af5b8ef38e7d57c5ee7fa4289ccf4df8.png', 'pcpid', '']);">增值电信业务许可证</a>&nbsp;
+                        网络食品经营备案（京）【2018】WLSPJYBAHF-12 &nbsp;
+                        <a href="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fe7383e11127caea371f17156f429a1e.png"
+                            target="_blank" data-stat-id="911257f4cef77495"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-911257f4cef77495', '//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fe7383e11127caea371f17156f429a1e.png', 'pcpid', '']);">食品经营许可证</a>
+                        <br>违法和不良信息举报电话：185-0130-1238 <a href="https://www.mi.com/static/intellectual/index.html"
+                            target="_blank" data-stat-id="1f66dd3b1b0f7218"
+                            onclick="_msq.push(['trackEvent', '9b9ab453978bfe93-1f66dd3b1b0f7218', 'https://www.mi.com/static/intellectual/index.html', 'pcpid', '']);">知识产权侵权投诉</a>
+                        本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                    </p>
+                    <div class="info-links">
+                        <a rel="nofollow"
+                            href="//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&amp;lang=zh-cn"
+                            target="_blank">
+                            <img rel="nofollow" src="//i1.mifile.cn/f/i/17/site/truste.png"
+                                alt="TRUSTe Privacy Certification"></a>
+                        <a rel="nofollow" href="//search.szfw.org/cert/l/CX20120926001783002010" target="_blank">
+                            <img rel="nofollow" src="//s01.mifile.cn/i/v-logo-2.png" alt="诚信网站"></a>
+                        <a rel="nofollow"
+                            href="https://ss.knet.cn/verifyseal.dll?sn=e12033011010015771301369&amp;ct=df&amp;pa=461082"
+                            target="_blank">
+                            <img rel="nofollow" src="//s01.mifile.cn/i/v-logo-1.png" alt="可信网站"></a>
+                        <a rel="nofollow" href="http://www.315online.com.cn/member/315140007.html" target="_blank">
+                            <imgrel="nofollow" src="//s01.mifile.cn/i/v-logo-3.png" alt="网上交易保障中心">
+                        </a>
+                        <a rel="nofollow" href="https://www.mi.com/service/buy/commitment/" target="_blank">
+                            <img rel="nofollow" src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png"
+                                alt="诚信经营 放心消费">
+                        </a>
+                    </div>
+                </div>
+                <div class="slogan"></div>
+            </div>
+        </div>
+    </div>
+
+            
+        <script src="../jQueryMnav/js/script.js"></script>
 </body>
+
 </html>

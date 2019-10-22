@@ -3,62 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>login</title>
+    <title>注册</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover" />
     <meta http-equiv="pragma" content="no-cache" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="Access-Control-Allow-Origin" content="*" />
-    <link rel="stylesheet" href="../jsselect/css/base.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="../jsselect/css/base.css" type="text/css" /> -->
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/Register.js"></script>
     <link href="../jsselect/css/login.css" rel="stylesheet" type="text/css" media="screen" />
     <link rel="stylesheet" href="../jsselect/css/flog.css" />
-    <script src="https://cdn.bootcss.com/angular.js/1.6.8/angular.min.js" language="javascript" type="text/javascript"></script>
+    
+    <script src="https://cdn.bootcss.com/angular.js/1.6.8/angular.min.js" language="javascript"
+        type="text/javascript"></script>
     <script src="../jsselect/js/angular-sanitize.min.js" language="javascript" type="text/javascript"></script>
-
+    <script type="text/javascript" src="../jsselect/js/login.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <!-- 区号插件 -->
+    <link rel="stylesheet" href="../phone/build//css/intlTelInput.css">
+    <link rel="stylesheet" href="../phone/build/css/demo.css">
+    <script src="../phone/build/js/intlTelInput.js"></script>
+    <link rel="stylesheet" href="../css/Register.css">
 
 </head>
 
 <body ng-app="myApp" ng-controller="detail" ng-cloak>
-    <!-- <div class="warp">
-			<img src="img/logo-2.png" class="logo" />
-			<div class="form" id="formdiv"> -->
+    <!--  -->
+    <div class="wrap">
+        <div class="layout">
+            <div class="n-frame">
+                <!-- 小米logo -->
+                <div class="n-frame device-frame reg_frame" id="main_container">
+                    <div class="external_logo_area"><a class="milogo" href="javascript:void(0)"></a></div>
+                    <div class="title-item t_c">
+                        <h4 class="title_big30">注册小米帐号</h4>
+                    </div>
 
-    <div class="intl-tel-input allow-dropdown warpinput">
-        <div class="flag-container">
-            <div class="selected-flag" tabindex="0">
-                <div class="iti-flag {{floatfloat.classname}} " id="flag_iti"></div>
+                    <div class="regbox">
+                        <div class="phone_step1">
+                            <h4 class="tit_normal">
+                                国家/地区
+                            </h4>
+                            <!-- 获取国家/地区 插件 -->
+                            <div class="intl-tel-input allow-dropdown warpinput" style="width: 332px;margin-bottom: 15px;">
+                                <div class="flag-container">
+                                    <div class="selected-flag" tabindex="0">
+                                        <div class="iti-flag {{floatfloat.classname}} " id="flag_iti"></div>
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="{{languagedata.telplaceholder}}"
+                                    ng-model="floatfloat.county" class="country_input" id="country_name"
+                                    ng-click="showcountryfn($event)" style="width: 332px;height: 42px;" readonly />
+                                <img src="../jsselect/img/triangle_3.png" alt="" class="triangle"
+                                    ng-show="!isShowSelect">
+                                <img src="../jsselect/img/select_up.png" alt="" class="triangle" ng-show="isShowSelect">
+                                <div class="country-list phone_div" ng-show="showcountry" id="country_list">
+                                    <input type="text" placeholder="{{languagedata.country_search}}" id="flag"
+                                        ng-click="showList($event)" class="search_input" style="text-align: left;" />
+                                    <ul id="country_ul">
+                                        <li class="country preferred" ng-repeat="item in phonelist"
+                                            ng-click="selcountry(item.county,item.classname,item.phoneCo,$event)">
+                                            <div class="flag-box">
+                                                <div class="iti-flag {{item.classname}}"></div>
+                                            </div>
+                                            <span class="country-name">{{item.county}}</span>
+                                            <span class="dial-code">{{item.phoneCo}}</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <span>成功注册帐号后，国家/地区将不能被修改</span>
+                            </div>
+                           
+
+                            <h4 class="tit_normal a">
+                                手机号码
+                            </h4>
+                            <input id="mobile-number" class="mobile" type="tel" placeholder="请输入手机号码">
+                            <span class="hint"></span>
+                            <div class="InputBox">
+                                <input class="submit" type="submit" value="立即注册">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- <div class="privacy_box">
+                    <div class="msg">
+                        <label class="Label">
+                            已阅读并同意：小米<a href="/about/protocol/agreement" class="inspect_link agreement_link"
+                                title="用户协议" target="_blank">用户协议</a>和<a href="/about/protocol/privacy"
+                                class="inspect_link privacy_link" title=" 隐私政策 " target="_blank"> 隐私政策
+                            </a>
+                        </label>
+                    </div>
+                </div>
             </div>
         </div>
-        <input type="text" placeholder="{{languagedata.telplaceholder}}" ng-model="floatfloat.county"
-            class="country_input" id="country_name" ng-click="showcountryfn($event)" readonly />
-        <img src="../jsselect/img/triangle_3.png" alt="" class="triangle" ng-show="!isShowSelect">
-        <img src="../jsselect/img/select_up.png" alt="" class="triangle" ng-show="isShowSelect">
-        <div class="country-list phone_div" ng-show="showcountry" id="country_list">
-            <input type="text" placeholder="{{languagedata.country_search}}" id="flag" ng-click="showList($event)"
-                class="search_input" style="text-align: left;" />
-            <ul id="country_ul">
-                <li class="country preferred" ng-repeat="item in phonelist"
-                    ng-click="selcountry(item.county,item.classname,item.phoneCo,$event)">
-                    <div class="flag-box">
-                        <div class="iti-flag {{item.classname}}"></div>
-                    </div>
-                    <span class="country-name">{{item.county}}</span>
-                    <span class="dial-code">{{item.phoneCo}}</span>
-                </li>
-            </ul>
-        </div>
     </div>
-    <!-- 
-				<div class="codediv"><input type="text"  class="codeint" /><span><img src="image/code.png" /> </span></div>
-			    <div class="btn redbtn " >{{languagedata.nextbtn}}</div> -->
+    <div class="footer">
+        <p>
+            <a href="">简体</a>
+            <span>|</span>
+            <a href="">繁体</a>
+            <span>|</span>
+            <a href="">English</a>
+            <span>|</span>
+            <a href="">常见问题</a>
+        </p>
 
-
-    </div>
-
-    </div>
-
+        <p>
+            <span>
+                小米公司版权所有-京ICP备10046444-
+                <a class="beianlink beian-record-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134">
+                    <span>
+                        <img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png">
+                    </span>京公网安备11010802020134号</a>-京ICP证110507号
+            </span>
+        </p>
+    </div> -->
+    <script>
+        $("#mobile-number").intlTelInput();
+    </script>
 </body>
-<script type="text/javascript" src="../jsselect/js/login.js"></script>
+
 
 </html>

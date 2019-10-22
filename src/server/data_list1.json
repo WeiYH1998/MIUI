@@ -1,0 +1,57 @@
+[{
+    "href": "https://www.mi.com/mi9pro/",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ca9b4f81af709935556bef9aa21a90e8.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "小米9 Pro 5G",
+    "p": "5G双卡全网通，骁龙855Plus",
+    "price": "3699",
+    "del": ""
+}, {
+    "href": "https://www.mi.com/redmi8",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d295c4fb500d163a7045dc715b47f808.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi 8",
+    "p": "5000mAh超长续航",
+    "price": "799",
+    "del": ""
+}, {
+    "href": "http://www.mi.com/redminote8pro",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi Note 8 Pro",
+    "p": "6400万全场景四摄",
+    "price": "1399",
+    "del": ""
+}, {
+    "href": "http://www.mi.com/redminote8",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi Note 8",
+    "p": "千元4800万四摄",
+    "price": "999",
+    "del": ""
+}, {
+    "href": "https://www.mi.com/redmik20pro-prime",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8737a33c78a94bc36afb860ab23b3939.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi K20 Pro 尊享版",
+    "p": "骁龙855 Plus， 弹出全面屏",
+    "price": "2699",
+    "del": ""
+}, {
+    "href": "https://www.mi.com/redminote7/",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0ce61b71e2f81df62bd0c05aaa901d22.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi Note 7",
+    "p": "4800万拍照千元机",
+    "price": "1099",
+    "del": "1399元"
+}, {
+    "href": "https://www.mi.com/redmi7/",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9aab8a7fa9005ef918c9aa2d5f17c806.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi 7",
+    "p": "4000mAh超长续航",
+    "price": "699",
+    "del": "799元"
+}, {
+    "href": "https://www.mi.com/redmi7a/",
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3c1af9783bdc53ed843af5655ca92009.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+    "title": "Redmi 7A",
+    "p": "小巧大电量 持久流畅",
+    "price": "579",
+    "del": "599元"
+}]

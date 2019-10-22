@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+}
+
+.logo {
+    width: 1130px;
+    height: 98px;
+    margin: 0 auto;
+}
+
+.banner-wrap {
+    position: relative;
+    width: 100%;
+    height: 588px;
+    /* top: 98px; */
+}
+
+.banner {
+    width: 100%;
+    height: 588px;
+    position: absolute;
+
+    left: 0;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e8201bfbb8c9d474a48da76f7d81a5c7.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* 登录 */
+.login-wrap {
+    width: 410px;
+    height: 556px;
+    background: #fff;
+    position: absolute;
+    z-index: 4;
+    left: 1115px;
+    bottom: 0;
+    
+}
+
+
+.login-text {
+    width: 410px;
+    height: 82px;
+    /* background: blanchedalmond; */
+    line-height: 82px;
+    text-align: center;
+    
+}
+
+.login-text a {
+    color: #666;
+    font-size: 24px;
+}
+
+.login-text span:nth-child(2) {
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 35px;
+    border: 1px solid #e0e0e0;
+}
+
+.login-text .title {
+    color: #f56600;
+}
+.curre{
+    display: block;
+}
+
+.login-main-A {
+    width: 410px;
+    height: 416px;
+    /* background: aqua; */
+    display: block;
+}
+
+.form-A {
+    width: 348px;
+    height: 125px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.input {
+    width: 348px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    color: #757575;
+
+
+}
+
+.A {
+    margin-bottom: 14px;
+}
+
+.Region {
+    width: 64px;
+    height: 48px;
+    float: right;
+    border: 0;
+    line-height: 48px;
+    text-align: center;
+    color: #333;
+    border-right: 1px solid #e0e0e0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.input-phone {
+    width: 282px;
+    height: 48px;
+    /* background: palegoldenrod; */
+    float: right;
+    border: 0;
+    outline: medium;
+    padding: 13px 16px 13px 14px
+}
+
+.input-note {
+    width: 235px;
+    height: 48px;
+    float: left;
+    border: 0;
+    padding: 13px 16px 13px 14px;
+    outline: medium;
+}
+.note-text{
+    display: block;
+    width: 100%;
+    /* height: 20px; */
+    font-size: 14px;
+    /* line-height: 20px; */
+    margin: 10px 0 0 0;
+    /* background: aquamarine; */
+}
+
+.note {
+    width: 111px;
+    height: 49px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    line-height: 49px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.note a {
+    color: #003AB5;
+}
+
+.register-wrap{
+    width: 348px;
+    height: 50px;
+    outline: none;
+}
+.register {
+    background-color: #ff6700;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin:20px 0 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+
+.mode{
+    width: 348px;
+    height: 208px;
+    /* background: #003AB5; */
+    margin: 0 auto;
+    margin-top:95px;
+}
+.mode a{
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.oth-wrap{
+    margin-top: 117px;
+}
+.oth_type_tit {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px\9;
+    
+}
+.oth_type_txt {
+    font-size: 14px;
+    color: #b0b0b0;
+    /* margin: 0 auto;
+    text-align: center;
+    width: 100% \9; */
+}
+
+.oth_type_links {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.icon_type {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.btn_qq {
+    background-color: #0288d1;
+}
+.btn_weibo {
+    background-color: #d32f2f;
+}
+.btn_alipay {
+    background-color: #0ae;
+}
+.btn_weixin {
+    background-color: #00d20d;
+}
+.icon_type .btn_sns_icontype {
+    display: block;
+    margin: 4px auto 0;
+}
+
+.btn_sns_icontype {
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon_default_qq {
+    background-position: -19px 0;
+}
+.icon_default_weibo {
+    background-position: -38px 0;
+}
+.icon_default_alipay {
+    background-position: -57px 0;
+    width: 25px;
+}
+.icon_type .icon_default_alipay {
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.icon_default_weixin {
+    background-position: -83px 0;
+    width: 24px;
+}
+.icon_type .icon_default_weixin {
+    margin-top: 6px;
+}
+
+/* 扫码登录页面 */
+.scan{
+    width: 410px;
+    height: 474px;
+    display: none;
+}
+
+.scan-img{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.custom_sub_txt {
+    padding-top: 14px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    color: #757575;
+
+    margin-top: 124px
+}
+.custom_sub_txt span {
+    padding: 0 5px;
+    color: #ff6700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+.footer {
+    width: 100%;
+    height: 63px;
+    position: fixed;
+    bottom: 80px;
+    text-align: center;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+
+.footer p:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.footer p:nth-child(1) a {
+    color: #757575;
+    padding: 0 10px;
+
+}
+
+.footer p:nth-child(1) a:hover {
+    color: #333;
+
+}
+
+.footer p:nth-child(2) span {
+    color: #9d9d9d;
+}
+
+.footer p:nth-child(2) a {
+    color: #9d9d9d;
+}

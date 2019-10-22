@@ -287,17 +287,17 @@ button {
 	margin-right: 6px
 }
 
-.intl-tel-input.allow-dropdown input,.intl-tel-input.allow-dropdown input[type=tel],.intl-tel-input.allow-dropdown input[type=text],.intl-tel-input.separate-dial-code input,.intl-tel-input.separate-dial-code input[type=tel],.intl-tel-input.separate-dial-code input[type=text] {
+/* .intl-tel-input.allow-dropdown input,.intl-tel-input.allow-dropdown input[type=tel],.intl-tel-input.allow-dropdown input[type=text],.intl-tel-input.separate-dial-code input,.intl-tel-input.separate-dial-code input[type=tel],.intl-tel-input.separate-dial-code input[type=text] {
 	padding-right: 6px;
 	padding-left: 52px;
 	margin-left: 0;
-    height: 55px;
+    height: 42px;
     border: 1px solid #ccc;
-    width: 522px;
+    width: 332px;
     padding-left: 60px;
     box-sizing: border-box;
     line-height: normal;
-}
+} */
 
 .intl-tel-input.allow-dropdown .flag-container,.intl-tel-input.separate-dial-code .flag-container {
 	right: auto;
@@ -707,7 +707,7 @@ button {
 
 .iti-flag.cn {
 	height: 14px;
-	background-position: -1049px 0
+	background-position: -1049px 0 
 }
 
 .iti-flag.co {
@@ -1751,8 +1751,8 @@ button {
 }
 
 .iti-flag {
-	width: 20px;
-	height: 15px;
+	/* width: 20px; */
+	/* height: 15px; */
 	box-shadow: 0 0 1px 0 #888;
 	background-image: url(../img/flags.png);
 	background-repeat: no-repeat;

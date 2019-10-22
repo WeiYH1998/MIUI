@@ -1,0 +1,206 @@
+       body {
+           overflow: hidden;
+           font-size: 14px;
+           background: #f9f9f9;
+       }
+
+       .warp {
+           padding-bottom: 80px;
+           padding-top: 100px;
+       }
+
+       .layout {
+           width: 854px;
+           height: 548px;
+           margin: 0 auto;
+           padding-bottom: 10px;
+           background: #fff;
+           position: relative;
+           top: 150px;
+           left: 50%;
+           margin-left: -427px;
+       }
+
+       .n-frame {
+
+           /* padding: 34px 34px 0; */
+           /* border: 1px solid #e6e6e6; */
+           -webkit-border-radius: 10px;
+           -moz-border-radius: 10px;
+           -o-border-radius: 10px;
+           border-radius: 10px;
+           min-height: 400px;
+           -height: 400px;
+       }
+
+       .device-frame {
+           border: none;
+           -webkit-border-radius: 0;
+           -moz-border-radius: 0;
+           -o-border-radius: 0;
+           border-radius: 0;
+           padding-top: 0;
+       }
+
+       .device-frame {
+           padding-bottom: 30px;
+       }
+
+       .external_logo_area {
+           padding-bottom: 40px;
+           display: block;
+       }
+
+       .milogo {
+           width: 49px;
+           height: 48px;
+           margin: 0 auto;
+           display: block;
+           cursor: default;
+           background-image: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png);
+       }
+
+       .title-item {
+           padding-bottom: 10px;
+           /* border-bottom: 1px solid #e6e6e6; */
+           clear: both;
+       }
+
+       .t_c {
+           text-align: center;
+       }
+
+       .title_big30 {
+           font-size: 30px;
+           font-weight: normal;
+           /* text-align: center; */
+       }
+
+       .regbox {
+           width: 332px;
+           padding: 30px 0;
+           line-height: 20px;
+           margin: 0 auto;
+       }
+
+       .regbox .tit_normal {
+           padding-bottom: 5px;
+           color: #333;
+           font-weight: normal;
+           text-align: left;
+       }
+
+       /* .regbox .phone_step1 .success {
+           text-align: left;
+           font-size: 14px;
+           color: #666;
+       } */
+
+       .aa{
+             margin-top: 15px;
+       }
+       /* .InputBox{
+        cursor: pointer;
+       }
+
+       */
+       .mobile {
+           width: 332px;
+           height: 42px;
+           cursor: pointer;
+       } 
+       /* .submit:hover{
+           background: #fff;
+           opacity: .8;
+       }  */
+       .submit {
+           display: block;
+           width: 330px;
+           height: 42px;
+           border: 1px solid rgba(186, 186, 186, 0.3);
+           background: #ff6700;
+           margin-top: 30px;
+           color: #fff;
+           cursor: pointer;
+           padding:0;
+       }
+
+       .Label {
+           color: #9d9d9d;
+       }
+
+       .msg {
+           text-align: center;
+       }
+
+       .msg a {
+           color: #333;
+           font-weight: bolder;
+       }
+
+       .n-footer {
+           width: 100%;
+           color: #9d9d9d;
+           text-align: center;
+           height: 80px;
+           position: absolute;
+           bottom: 0;
+           background: rebeccapurple;
+       }
+
+       .nf-link-area {
+           text-align: center;
+       }
+
+       .lang-select-list {
+           display: block;
+           list-style-type: disc;
+           margin-block-start: 1em;
+           margin-block-end: 1em;
+           margin-inline-start: 0px;
+           margin-inline-end: 0px;
+           padding-inline-start: 40px;
+       }
+
+       .lang-select-list li {
+           float: left;
+       }
+
+       .nf-link-area a {
+           display: inline-block;
+           *display: inline;
+           *zoom: 1;
+           padding: 0 10px;
+           color: #757575;
+       }
+
+       .footer {
+           width: 100%;
+           height: 63px;
+           position: fixed;
+           bottom: 30px;
+           text-align: center;
+       }
+
+       .footer p:nth-child(1) {
+           margin-bottom: 10px;
+       }
+
+       .footer p:nth-child(1) a {
+           color: #757575;
+           padding: 0 10px;
+
+       }
+
+       .footer p:nth-child(1) a:hover {
+           color: #333;
+
+       }
+
+       .footer p:nth-child(2) span {
+           color: #9d9d9d;
+       }
+
+       .footer p:nth-child(2) a {
+           color: #9d9d9d;
+       }
